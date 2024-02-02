@@ -1,0 +1,55 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+    </head>
+    <body>
+      <h1 id="title">Software Engineering Survey</h1>
+      <p id="description">What kind of SWE do you want to be?and why?</p>
+      <form method="post" action='https://register-demo.freecodecamp.org' id="survey-form">
+      <fieldset>
+        <label id="name-label"> Name: <input type="text" name="first-last name" id="name" placeholder="Enter name" required></label>
+        <label id="email-label">Enter Your Email: <input id="email" type="email" placeholder="Enter email"required /></label>
+        <label id="number-label">Age: <input id="number" type="number" name="number" min="0" max="129" placeholder="Age"</label>
+        <label for="dropdown">Types of SWE:</label>
+        <select id="dropdown" name="dropdown">
+          <option value="">Select one</option>
+          <option value="1">Front-end</option>
+          <option value="2">Back-end</option>
+          <option value="3">Full-stack</option>
+          </select>
+          </fieldset>
+          <fieldset>
+          <legend> Do you enjoy it?</legend>
+          <label for="yes"><input type="radio" id="yes" name="radio" value="Yes">Yes</label>
+          <label for="no"><input type="radio" id="No" name="radio" value="No">No</label>
+   </fieldset>
+   <fieldset>
+     <legend required>What programming language do you know? (Select all that apply)</legend>
+     <label><input type="checkbox" name="HTML&CSS" value="language"> HTML&CSS</label>
+      <label><input type="checkbox" name="JVS" value="language"> JavaScript</label>
+       <label><input type="checkbox" name="Python" value="language"> Python</label>
+        <label><input type="checkbox" name="C++" value="language"> C++</label>
+         <label><input type="checkbox" name="C" value="language"> C </label>
+          <label><input type="checkbox" name="Java" value="language"> Java</label>   
+     </fieldset>
+     <fieldset>
+       <textarea placeholder="leave your comment here if you want"></textarea>
+       <button id="submit">Submit</button>
+       </fieldset>
+      </form>
+      </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
